@@ -17,7 +17,8 @@ async function request<T>(input: RequestInfo | URL, init?: RequestInit): Promise
   return response.json() as Promise<T>;
 }
 
-const commandResource = `${API_COMMAND_URL}/persons`;
+// Gateway paths: command já inclui /api/persons, query inclui /api/query
+const commandResource = API_COMMAND_URL;
 const queryResource = `${API_QUERY_URL}/persons`;
 
 export const personService = {

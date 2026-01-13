@@ -52,11 +52,11 @@ const mainLinks: NavItem[] = [
 ];
 
 const apiLinks: NavItem[] = [
-  { label: 'API Docs', icon: 'description', href: 'http://localhost:3000/api' },
-  { label: 'API JSON', icon: 'data_object', href: 'http://localhost:3000/openapi.json' },
-  { label: 'API Persons', icon: 'list', href: 'http://localhost:3000/persons' },
-  { label: 'API Root', icon: 'home', href: 'http://localhost:3000/' },
-  { label: 'API JSON (Nest)', icon: 'code', href: 'http://localhost:3000/api-json' }
+  { label: 'API Gateway', icon: 'hub', href: 'http://localhost:8084/' },
+  { label: 'Swagger NestJS', icon: 'description', href: 'http://localhost:8084/swagger/nestjs' },
+  { label: 'Swagger .NET', icon: 'code', href: 'http://localhost:8084/swagger/dotnet' },
+  { label: 'API Persons', icon: 'list', href: 'http://localhost:8084/api/persons' },
+  { label: 'Health Check', icon: 'monitor_heart', href: 'http://localhost:8084/health' }
 ];
 
 const onNavigate = (emit: Function) => {

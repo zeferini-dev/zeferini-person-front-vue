@@ -15,7 +15,7 @@
 
     <a
       class="icon-button"
-      href="http://localhost:3000/api"
+      href="http://localhost:8084/swagger/nestjs"
       target="_blank"
       rel="noreferrer"
       aria-label="API Docs"
